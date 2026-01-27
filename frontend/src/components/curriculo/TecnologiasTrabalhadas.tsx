@@ -11,7 +11,7 @@ export default function TecnologiasTrabalhadas(props: TecnologiasTrabalhadas){
             <div className="flex justify-center flex-wrap gap-x-3">
                 {props.tecnologias.map((tecnologia) => (
                     <div key={tecnologia.id}>
-                        <span className="text-red-500 text-bold">#</span>
+                        <span className="text-orange-500 text-bold">#</span>
                         <span>{tecnologia.nome}</span>
                     </div> ))}
             </div>

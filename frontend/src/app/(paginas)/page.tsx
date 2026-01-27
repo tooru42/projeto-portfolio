@@ -1,3 +1,4 @@
+import Artigos from "@/components/artigos/Artigos";
 import Curriculo from "@/components/curriculo";
 import Principal from "@/components/landing/Principal";
 import Projetos from "@/components/projetos/Projetos";
@@ -13,11 +14,9 @@ export default async function Home() {
     <div>
       <Principal tecnologias={tecnologias.destaques} />
       <Container className="py-16 flex flex-col items-center gap-10">
-        <Projetos titulo="Projetos em Destaque" lista={projetos.destaque}/>
-        <Projetos titulo="Web" lista={projetos.web}/>
-        <Projetos titulo="Mobile" lista={projetos.mobile}/>
-        <Projetos titulo="Jogos" lista={projetos.jogo}/>
-        <Curriculo tecnologias={tecnologias.todas}/>
+        <Projetos titulo="Github" lista={projetos.destaque} />
+        <Artigos titulo="Artigos Científicos"></Artigos>
+        <Curriculo tecnologias={tecnologias.ativos}/>
       </Container>
       
     </div>

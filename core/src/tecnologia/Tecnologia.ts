@@ -3,5 +3,6 @@ export default interface Tecnologia {
     nome: string
     descricao: string
     imagem: string
+    ativo: boolean
     destaque: boolean
 }

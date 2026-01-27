@@ -8,6 +8,9 @@ export async function obterTecnologias() {
         todas: tecnologias,
         get destaques(){
             return tecnologias.filter(tecnologia => tecnologia.destaque)
+        },
+        get ativos(){
+            return tecnologias.filter(tecnologia => tecnologia.ativo)
         }
     }
 }

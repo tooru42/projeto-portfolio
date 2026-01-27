@@ -15,4 +15,9 @@ export class TecnologiaController {
     async obterDestaques(): Promise<Tecnologia[]>{
         return this.repo.obterDestaques();
     }
+
+    @Get('ativos')
+    async obterAtivos(): Promise<Tecnologia[]>{
+        return this.repo.obterAtivos();
+    }
 }
