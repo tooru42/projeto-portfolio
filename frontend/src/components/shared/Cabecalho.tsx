@@ -1,8 +1,7 @@
 import Link from "next/link"
 import Container from "./Container"
-import Image from "next/image"
 import Menu from "./Menu"
-import { IconBrandReact, IconDownload } from "@tabler/icons-react"
+import { IconBrandReact } from "@tabler/icons-react"
 
 export default function Cabecalho() {
     return (
@@ -10,7 +9,6 @@ export default function Cabecalho() {
             <Container className="flex-1 flex justify-center sm:justify-between items-center">
                 <div className="flex gap-10 items-center">
                     <Link href="/" className="hidden sm:block">
-                        {/*<Image src="/logo.svg" alt="Logo" width={80} height={0} />*/}
                         <IconBrandReact size={40} color="#ff6900" stroke={1} />
                     </Link>
                     <Menu />

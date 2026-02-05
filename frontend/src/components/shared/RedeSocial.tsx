@@ -3,7 +3,7 @@ import React from "react"
 
 interface RedeSocialProps {
     url: string
-    icone: any
+    icone: any // eslint-disable-line
 }
 
 export default function RedeSocial(props: RedeSocialProps) {
