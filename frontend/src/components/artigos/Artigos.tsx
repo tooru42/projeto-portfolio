@@ -19,21 +19,21 @@ const articles = [
         title: "Compartilhamento de placa de video entre maquinas virtuais",
         description:
             "Este trabalho procura verificar o desempenho de tais placas de vídeo através da avaliação gratuita disponibilizado pela NVIDIA utilizando um software de modelagem 3D.",
-        link: "",
+        link: "https://docs.google.com/document/d/1HzkZvCvqule2hE8ed5HCv64WsbZYykWy/edit?usp=sharing&ouid=109104155650314555871&rtpof=true&sd=true",
     },
     {
         id: 2,
         title: "Desenvolvimento de um aplicativo para usuários não programadores que permite a criação de aplicações que utilizam tecnologia de realidade aumentada",
         description:
             "Com este trabalho espera-se contribuir a facilitar futuros projetos que envolvam esta tecnologia.",
-        link: "",
+        link: "https://docs.google.com/document/d/1qIAIq5HOtHx_oMG2x90Ixec5rNqXt9Ju/edit?usp=sharing&ouid=109104155650314555871&rtpof=true&sd=true",
     },
     {
         id: 3,
         title: "Um Robô Seguidor de Linha Fotossensível com Arduino",
         description:
             "O presente projeto do robô seguidor de linha tem como finalidade detectar uma linha desenhada na pista por meio de contraste entre a cor desta linha e a cor do restante da pista. ",
-        link: "",
+        link: "https://docs.google.com/document/d/1fUlWsJx1vZCIm2M8mSf41OkjrQxZIGhf/edit?usp=sharing&ouid=109104155650314555871&rtpof=true&sd=true",
     },
 ]
 
