@@ -1,7 +1,8 @@
 import Link from "next/link"
 import Container from "./Container"
+import Image from "next/image"
 import Menu from "./Menu"
-import { IconBrandReact } from "@tabler/icons-react"
+import { IconBrandReact, IconDownload } from "@tabler/icons-react"
 
 export default function Cabecalho() {
     return (

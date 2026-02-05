@@ -9,9 +9,9 @@ const caminho = usePathname()
         <nav className="flex gap-6">
             <MenuItem href="/" selecionado={caminho ==="/"}>Inicio</MenuItem>
             {/*<MenuItem href="/projeto/1" selecionado={caminho.startsWith("/projeto")}>Projetos</MenuItem>*/}
-            <MenuItem href="https://docs.google.com/document/d/1BCMKM4FbOaE315Vm3LSwmLJnE6QFyIOtmIrxLY5I-Bg/edit?usp=sharing" selecionado={false} novaAba>CV</MenuItem>
-            <MenuItem href="https://linkedin.com/in/tooru-tanaka" novaAba>Linkedin</MenuItem>
-            <MenuItem href="https://github.com/tooru42" novaAba>Github</MenuItem>
+            <MenuItem href="" selecionado={false} novaAba>CV</MenuItem>
+            <MenuItem href="" novaAba>Linkedin</MenuItem>
+            <MenuItem href="" novaAba>Github</MenuItem>
         </nav>
     )
 }
