@@ -12,7 +12,7 @@ export default function Menu() {
             </MenuItem>
             {/*<MenuItem href="/projeto/1" selecionado={caminho.startsWith("/projeto")}>Projetos</MenuItem>*/}
             <MenuItem
-                href="https://docs.google.com/document/d/1BCMKM4FbOaE315Vm3LSwmLJnE6QFyIOtmIrxLY5I-Bg/edit?usp=sharing"
+                href="https://drive.google.com/file/d/13hhUqxNpfgYkjDi0b4YJlVDhxhj1b8Lt/view?usp=sharing"
                 selecionado={false}
                 novaAba
             >
